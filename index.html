@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <head>
+  <!-- Website title -->
+  <title>What kind of grilled cheese are you?</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to my website!</h1>
-  <p>click the button to change the background color :)</p>
-
-  <button id="colorChanger">Click me!</button>
+  <div class="container">
+    <div class="row mb-5 text-center">
+      <div class="col-12">
+        <a href="index.html"><img class="img-fluid" id="logoImg" src="grilled-cheese.png"></a>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12">
+        <h1><strong>What kind of GRILLED CHEESE are you?</strong></h1>
+        <p>Answer a few questions to find out what kind of delicious grilled cheese you are.</p>
+        <a class="btn btn-custom btn-lg" href="quiz.html">Get Started!</a>
+      </div>
+    </div>
+  </div>
   <script src="betabox.js"></script>
 </body>

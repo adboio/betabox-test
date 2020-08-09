@@ -1,3 +1,34 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: orange;
+  color: #784502;
+  padding: 40px;
+}
+
+h1 {
+  color: #784502;
+  font-family: 'Luckiest Guy', sans-serif;
+}
+
+.btn-custom {
+  background-color: #784502;
+  color: white;
+  font-family: 'Luckiest Guy', sans-serif;
+}
+
+a.btn-custom:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+#logoImg {
+  max-height: 200px;
+}
+
+.btn-option {
+  margin-bottom: 5px;
+}
+
+.questionRow {
+  display: none;
 }
